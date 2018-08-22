@@ -43,7 +43,17 @@ module ISO3166
     end
 
     def translations(locale = 'en')
-      I18nData.countries(locale.upcase)
+      @translations_map ||= {}
+      _translations = @translations_map[locale]
+      return _translations if !!_translations
+
+      _translations = {}
+      ISO3166::Data.cache.each do |key, value|
+        _translations[key] = value['translations'][locale]
+      end
+      @translations_map[locale] = _translations
+
+      _translations
     end
 
     def search(query)
