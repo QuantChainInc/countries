@@ -22,7 +22,14 @@ ar:
   BQ: "بونير، سينت أوستاتيوس وسابا"
   CW: "كوراساو"
 zh:
+  HK: '中国香港'
   KH: '柬埔寨'
+  MO: '中国澳门'
+  TW: '中国台湾'
+en:
+  HK: 'Hong Kong - China'
+  MO: 'Macao - China'
+  TW: 'Taiwan - China'
 fa:
   IR: "ایران"
 he:

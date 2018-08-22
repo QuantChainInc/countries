@@ -7,7 +7,7 @@ MO:
   international_prefix: '00'
   ioc: 
   gec: MC
-  name: Macao
+  name: Macau SAR China
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -21,9 +21,9 @@ MO:
   nationality: Chinese
   postal_code: false
   unofficial_names:
-  - Macao
-  - Macau
-  - マカオ
+  - 'Macao - China'
+  - 'Macau - China'
+  - 中国マカオ
   languages_official:
   - zh
   - pt

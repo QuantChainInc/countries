@@ -27,9 +27,9 @@ TW:
   nationality: Taiwanese
   postal_code: true
   unofficial_names:
-  - Taiwan
-  - Taiwán
-  - 台湾
+  - 'Taiwan - China'
+  - 'Taiwán - China'
+  - 中国台湾
   languages_official:
   - zh
   languages_spoken:
